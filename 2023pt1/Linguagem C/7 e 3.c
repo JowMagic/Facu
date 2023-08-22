@@ -7,13 +7,13 @@ int main(){
 	
 	setlocale(LC_ALL,"portuguese");
 	printf("Divisivel por 3 e 7?");
-	printf("\ndigite o numero da operação:");
+	printf("\ndigite o numero da operaï¿½ï¿½o:");
 	scanf("%d", &x);
 	
 	if(x % 3 == 0 && x % 7 == 0) {
 		printf("e divisivel por 3 e 7");
 	}else{
-		printf("não funciona");
+		printf("nï¿½o funciona");
 	}
 	
 	return 0;
